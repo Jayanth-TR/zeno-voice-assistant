@@ -1,0 +1,704 @@
+
+--- PAGE 1 ---
+Flow  ●  Show  industries:  E- commerce,  Banking,  Insurance  ●  Each  industry  shows  3  challenges  and  1  case  study;  the  person  can  click  on  any  ●  Flows  for  each  challenge  are  given  below;  the  case  study  shows  the  metrics  and  a  QR  code  to  
+read
+ 
+the
+ 
+entire
+ 
+story
+ ●  After  the  demo,  collect  leads  via  WhatsApp  
+1.  E- commerce  &  D2C  Challenges  the  visitor  can  pick:  1.  Cart  recovery  has  stopped  recovering  2.  One- time  buyers  never  come  back  3.  Sale- season  planning  is  guesswork  
+Challenge  1.1:  Cart  recovery  has  stopped  recovering  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  build  the  segment  ·  plan  next  steps  
+Question:  "How  can  I  recover  more  revenue  from  abandoned  carts?"   What  Zeno  does  on  screen:  ●  Reading  3  cart- recovery  journeys  ●  Matching  4.1L  abandoned  carts  to  the  orders  that  followed  ●  Comparing  recovery  by  the  hour  each  reminder  was  sent  Zeno's  answer  (what  it  found):  ●  Headline:  Carts  left  after  9  PM  recover  2x  better  when  the  reminder  goes  at  9  AM,  not  at  
+midnight.
+ ●  Detail:  Your  first  reminder  goes  1  hour  after  the  cart  is  left.  So  31%  of  abandoned  cart  value  gets  
+its
+ 
+reminder
+ 
+between
+ 
+10
+ 
+PM
+ 
+and
+ 
+2
+ 
+AM,
+ 
+when
+ 
+few
+ 
+people
+ 
+open
+ 
+it.
+ ●  Chart  (Cart  recovery  rate  by  hour  the  reminder  was  sent):  9  AM  11.2%  ·  12  PM  10.4%  ·  3  PM  
+9.1%
+ 
+·
+ 
+6
+ 
+PM
+ 
+9.8%
+ 
+·
+ 
+9
+ 
+PM
+ 
+7.6%
+ 
+·
+ 
+12
+ 
+AM
+ 
+4.9%
+ 
+(marker
+ 
+on
+ 
+12
+ 
+AM:
+ 
+"Late-
+night
+ 
+carts").
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+Follow- up  1:  "Who  should  get  a  morning  reminder?"  What  Zeno  does:  Builds  a  segment  from  one  sentence  ●  Segment  sentence:  "Carts  left  between  9  PM  and  2  AM  in  the  last  7  days,  worth  over  ₹1,000,  
+with
+ 
+no
+ 
+order
+ 
+since"
+ ●  Reachable  users:  26,380  ●  Reach  by  channel:  WhatsApp  21,150  ·  App  push  19,840  ·  Email  24,900  ●  Next  step  shown:  View ›  Save  segment  
+Follow- up  2:  "Plan  the  new  reminder  timing"  What  Zeno  does:  Plans  the  next  steps  
+--- PAGE 2 ---
+●  Recommended  reminder  timing:  ●  Daytime:  Keep  the  reminder  1  hour  after  the  cart  is  left  ●  Late  night:  Hold  it  until  9  to  10  AM  the  next  morning  ●  Day  2:  Second  reminder  at  each  shopper's  usual  buying  hour  ●  Skip:  Items  already  bought  or  now  out  of  stock  Outcome  screen:  ●  Time  to  answer:  38  sec  (usual  way:  2  days  across  3  dashboards,  tagged  Illustrative)  ●  If  you  act  on  it:  +7%  cart  revenue,  ~₹21L  a  month  (tagged  Projected)  ●  Success  story  tile:  Mulmul ,  "28%  Repeat  Purchase  Rate  with  Agentic  Marketing"  (https://
+netcore.ai/
+success-
+story/
+mulmul-676-
+whatsapp-
+revenue-
+agentic-
+marketing/)
+ 
+Challenge  1.2:  One- time  buyers  never  come  back  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  build  the  segment  ·  plan  next  steps  
+Question:  "Which  one- time  buyers  are  most  likely  to  buy  again  this  quarter?"   What  Zeno  does  on  screen:  ●  Scoring  6.8L  customers  on  recency,  frequency  and  value  ●  Splitting  one- time  buyers  by  first- order  discount  and  product  ●  Checking  which  past  win- back  campaigns  worked  Zeno's  answer  (what  it  found):  ●  Headline:  Full- price  first- timers  are  3x  likelier  to  buy  again  than  deep- discount  first- timers.  ●  Detail:  62%  of  one- time  buyers  lapse  within  45  days.  Most  of  them  came  in  on  a  40% +  sale  code  
+and
+ 
+were
+ 
+never
+ 
+going
+ 
+to
+ 
+buy
+ 
+at
+ 
+full
+ 
+price.
+ ●  Chart  (Repeat  purchase  rate  by  first- order  discount):  Full  price  31%  ·  Under  20%  off  24%  ·  
+20-40%
+ 
+off
+ 
+15%
+ 
+·
+ 
+Over
+ 
+40%
+ 
+off
+ 
+9%.
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+Follow- up  1:  "Build  the  win- back  segment" What  Zeno  does:  Builds  a  segment  from  one  sentence  ●  Segment  sentence:  "One- time  buyers  from  the  last  60  days  who  paid  full  price  or  got  under  20%  
+off,
+ 
+and
+ 
+haven't
+ 
+lapsed
+ 
+yet"
+ ●  Reachable  users:  52,310  ●  Reach  by  channel:  App  push  40,120  ·  WhatsApp  38,800  ·  Email  49,750  ●  Next  step  shown:  View ›  Save  segment  
+Follow- up  2:  "What  should  the  win- back  look  like?" What  Zeno  does:  Plans  the  next  steps  ●  Recommended  win- back  plan:  ●  Day  20:  Usage  tips  or  a  refill  reminder  for  what  they  bought  ●  Day  30:  Products  most  often  bought  with  their  first  item  ●  Day  45:  A  small  offer,  only  for  full- price  buyers  who  haven't  returned  ●  Skip:  Deep- discount  first- timers:  bring  them  back  in  the  next  sale  Outcome  screen:  ●  Time  to  answer:  44  sec  (usual  way:  1  week  of  RFM  work  in  spreadsheets,  tagged  Illustrative)  ●  If  you  act  on  it:  +3.1  pts  repeat  rate  in  90  days  (tagged  Projected)  
+--- PAGE 3 ---
+●  Success  story  tile:  BigHaat ,  "98%  ↑  Orders  from  Existing  Farmer  Base"  (https:// netcore.ai/
+success-
+story/
+bighaat-25-
+roi-
+retention-
+customer-
+engagement/)
+ 
+Challenge  1.3:  Sale- season  planning  is  guesswork  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  build  the  segment  ·  write  a  report  
+Question:  "How  should  I  plan  campaigns  for  the  year- end  sale?"   What  Zeno  does  on  screen:  ●  Reading  2  years  of  sale- season  campaigns  ●  Mapping  orders  by  sale  day  and  hour  ●  Checking  message  fatigue  per  user  per  day  Zeno's  answer  (what  it  found):  ●  Headline:  Last  year,  47%  of  sale  orders  came  in  early  access  and  day  1.  Your  biggest  
+sends
+ 
+went
+ 
+out
+ 
+on
+ 
+day
+ 
+3.
+ ●  Detail:  By  day  3  most  buyers  had  already  bought.  Unsubscribes  doubled  in  the  second  half  of  
+the
+ 
+sale.
+ ●  Chart  (Share  of  sale  orders  by  day,  last  year):  Early  9%  ·  Day  1  38%  ·  Day  2  21%  ·  Day  3  14%  ·  
+Day
+ 
+4
+ 
+10%
+ 
+·
+ 
+Day
+ 
+5
+ 
+8%
+ 
+(marker
+ 
+on
+ 
+Day
+ 
+3:
+ 
+"Biggest
+ 
+send").
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+Follow- up  1:  "Who's  getting  too  many  messages?" What  Zeno  does:  Builds  a  segment  from  one  sentence  ●  Segment  sentence:  "Users  who  got  more  than  4  messages  a  day  during  last  year's  sale  and  
+then
+ 
+unsubscribed
+ 
+or
+ 
+muted
+ 
+push"
+ ●  Reachable  users:  1,12,400  ●  Reach  by  channel:  App  push  86,200  ·  WhatsApp  41,300  ·  Email  97,800  ●  Next  step  shown:  View ›  Save  segment  
+Follow- up  2:  "Give  me  the  full  plan  as  a  report" What  Zeno  does:  Writes  a  Deep  Research  report  ●  Report  title:  "Year- end  sale  plan"  ●  Screens:  Orders  by  sale  day  ·  Early- access  plan  ·  Fatigue  limits  ·  Send- time  windows  ·  Channel  
+mix
+ ●  Coverage  line:  Covers  214  campaigns  and  9  journeys  from  the  last  two  sale  seasons.  ●  Options  shown:  PDF  ·  Email  ·  Schedule  Outcome  screen:  ●  Time  to  answer:  52  sec  (usual  way:  3  days  building  the  plan  deck,  tagged  Illustrative)  ●  If  you  act  on  it:  -22%  unsubscribes  in  sale  week  (tagged  Projected)  ●  Success  story  tile:  Bacca  Bucci ,  "3X  ↑  CRM  Revenue  Share  with  Agentic  Marketing"  (https://
+netcore.ai/
+success-
+story/
+bacca-
+bucci-15x-
+roi-
+agentic-
+marketing/)
+ 
+E- commerce  &  D2C  success  stories   The  story  screen  shows  the  first  one  by  default;  visitors  can  switch  to  the  others.  Each  shows  a  QR  
+code
+ 
+to
+ 
+the
+ 
+full
+ 
+story.
+ 
+--- PAGE 4 ---
+Brand Line Link Bacca  Bucci  3X  ↑  CRM  Revenue  Share  with  Agentic  Marketing  
+https:// netcore.ai/ success- story/bacca- bucci-15x- roi- agentic-marketing/  Mulmul  28%  Repeat  Purchase  Rate  with  Agentic  Marketing  
+https:// netcore.ai/ success- story/mulmul-676- whatsapp- revenue-agentic- marketing/  Anveshan  94%  ↑  Conversions  with  Intent- Led  Agentic  Targeting  
+https:// netcore.ai/ success- story/anveshan-13x- whatsapp- roi-netcore- ai- propensity- model/  BigHaat  98%  ↑  Orders  from  Existing  Farmer  Base  
+https:// netcore.ai/ success- story/bighaat-25- roi- retention- customer-engagement/  IGP  95%  Less  Analysis  Time  with  Insight  Agent  
+https:// netcore.ai/ success- story/igp-3x- email- ctr- uplift- netcore-insight- agent/  Myntra  3.8X  ↑  Sessions  with  In- Inbox  Discovery  
+https:// netcore.ai/ success- story/myntra- success- story/  AJIO  18%  ↑  Revenue  with  an  Interactive  Valentine's  Game  
+https:// netcore.ai/ success- story/ ajio-valentines- day- amp- email- success-story/  GRT  Jewellers  12X  Digital  Orders  for  a  Six- Decade  Heritage  Jeweller  
+https:// netcore.ai/ success- story/ grt-jewellers-12x- email- orders- primary-inbox/   
+2.  Banking  &  Fintech  Challenges  the  visitor  can  pick:  4.  Customers  check  FD  rates  but  don't  book  5.  Too  many  journeys,  no  idea  which  ones  leak  6.  Customers  go  quiet  and  you  find  out  late  
+Challenge  2.1:  Customers  check  FD  rates  but  don't  book  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  build  the  segment  ·  compare  channels  
+Question:  "Which  customers  are  most  likely  to  open  an  FD  this  month?"   What  Zeno  does  on  screen:  ●  Reading  30  days  of  app  and  website  activity  for  18L  customers  ●  Finding  who  checked  FD  rates  or  used  the  FD  calculator  ●  Checking  who  already  got  an  FD  campaign  Zeno's  answer  (what  it  found):  ●  Headline:  11,200  customers  checked  FD  rates  2+  times  this  month.  Only  1  in  5  heard  from  
+you.
+ ●  Detail:  Customers  who  come  back  to  the  FD  rates  page  book  about  4x  more  than  one- time  
+visitors.
+ 
+Your
+ 
+FD
+ 
+campaign
+ 
+goes
+ 
+to
+ 
+the
+ 
+whole
+ 
+base
+ 
+by
+ 
+email.
+ ●  Chart  (FD  booked  within  30  days,  by  visits  to  the  FD  rates  page):  No  visit  0.4%  ·  1  visit  1.8%  ·  
+2-3
+ 
+visits
+ 
+6.1%
+ 
+·
+ 
+4+
+ 
+visits
+ 
+9.7%
+.
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+--- PAGE 5 ---
+Follow- up  1:  "Build  the  FD  intent  segment" What  Zeno  does:  Builds  a  segment  from  one  sentence  ●  Segment  sentence:  "Customers  who  viewed  FD  rates  or  the  FD  calculator  2+  times  in  the  last  14  
+days
+ 
+and
+ 
+haven't
+ 
+booked
+ 
+an
+ 
+FD"
+ ●  Reachable  users:  8,940  ●  Reach  by  channel:  SMS  8,940  ·  WhatsApp  7,310  ·  App  push  5,620  ●  Next  step  shown:  View ›  Save  segment  
+Follow- up  2:  "Which  channel  converts  best?" What  Zeno  does:  Compares  the  options  and  recommends  ●  Chart  (FD  booking  rate  by  channel,  last  3  FD  campaigns):  WhatsApp  4.8%  ·  App  push  2.9%  ·  
+Email
+ 
+1.1%
+ 
+·
+ 
+SMS
+ 
+0.6%.
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Recommendation  on  screen:  Lead  with  WhatsApp,  and  mention  the  tenure  they  looked  at.  Outcome  screen:  ●  Time  to  answer:  37  sec  (usual  way:  3  days  with  the  analytics  team,  tagged  Illustrative)  ●  If  you  act  on  it:  +18%  FD  bookings  this  quarter  (tagged  Projected)  ●  Success  story  tile:  Equitas  Bank ,  "50%  ↑  FD  Conversions  with  Personalised  WhatsApp  
+Journeys"
+ 
+(https://
+netcore.ai/
+success-
+story/
+equitas-
+growth-1-5x-
+digital-
+adoption/)
+ 
+Challenge  2.2:  Too  many  journeys,  no  idea  which  ones  leak  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  run  the  checks  ·  plan  next  steps  
+Question:  "Review  my  live  journeys.  Which  work  best,  which  work  worst,  and  where  are  they  
+leaking?"
+  What  Zeno  does  on  screen:  ●  Reading  42  live  journeys  across  loans,  cards  and  FDs  ●  Tracing  6.2L  customers  through  every  step  in  the  last  30  days  ●  Finding  where  people  exit  before  the  goal  Zeno's  answer  (what  it  found):  ●  Headline:  Personal  loan  is  your  weakest  journey.  38%  of  people  in  it  get  nothing  after  day  
+1.
+ ●  Detail:  Customers  without  your  app  go  down  the  "no  app"  branch,  which  stops  after  one  SMS.  
+Your
+ 
+best
+ 
+journey,
+ 
+FD
+ 
+renewal,
+ 
+converts
+ 
+4x
+ 
+better.
+ ●  Chart  (Goal  conversion,  best  and  worst  live  journeys):  FD  renewal  14.2%  ·  Card  activation  
+11.8%
+ 
+·
+ 
+Onboarding
+ 
+9.6%
+ 
+·
+ 
+Home
+ 
+loan
+ 
+4.1%
+ 
+·
+ 
+Personal
+ 
+loan
+ 
+3.4%
+.
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+Follow- up  1:  "Find  every  leak  in  this  journey" What  Zeno  does:  Runs  the  checks  and  flags  issues  ●  Flagged:  "No  app"  branch  stops  after  one  SMS  (Dead  end)  ●  Flagged:  People  exit  on  app  open,  before  they  apply  (Early  exit)  ●  Flagged:  9%  of  SMS  fail:  template  not  DLT- registered  (Delivery)  ●  Flagged:  Day  3  and  day  5  repeat  the  same  offer  (Repetition)  ●  Passed:  Goal  tracking  and  frequency  caps  set  up  (Passed)  
+--- PAGE 6 ---
+Follow- up  2:  "What  should  I  change?" What  Zeno  does:  Plans  the  next  steps  ●  Suggested  changes,  in  order:  ●  Add:  WhatsApp  and  email  steps  to  the  "no  app"  branch  ●  Fix:  Exit  only  after  the  application  is  submitted  ●  Fix:  Register  the  SMS  template  on  DLT  ●  Change:  Day  5:  offer  a  callback  instead  of  the  same  offer  Outcome  screen:  ●  Time  to  answer:  45  sec  (usual  way:  1  week  auditing  journeys  one  by  one,  tagged  Illustrative)  ●  If  you  act  on  it:  +22%  personal  loan  applications  (tagged  Projected)  ●  Success  story  tile:  Shriram  Finance ,  "171%  ↑  ROI  Across  Loan  and  FD  Funnels  with  Agentic  
+Marketing"
+ 
+(https://
+netcore.ai/
+success-
+story/
+shriram-
+finance-171-
+roi-
+increase-
+agentic-
+marketing/)
+ 
+Challenge  2.3:  Customers  go  quiet  and  you  find  out  late  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  build  the  segment  ·  write  a  report  
+Question:  "Find  customers  who've  gone  quiet  but  are  worth  reviving."   What  Zeno  does  on  screen:  ●  Scanning  18L  customers'  app  and  campaign  activity  ●  Finding  who  stopped  engaging  in  the  last  90  days  ●  Ranking  them  by  past  engagement  Zeno's  answer  (what  it  found):  ●  Headline:  38%  went  quiet  right  after  a  failed  payment.  ●  Detail:  1.9L  customers  stopped  engaging  in  90  days.  A  failed  UPI  or  card  transaction  is  the  most  
+common
+ 
+last
+ 
+event.
+ ●  Chart  (Last  event  before  going  quiet):  Failed  payment  38%  ·  No  clear  reason  24%  ·  App  update  
+21%
+ 
+·
+ 
+Fee
+ 
+SMS
+ 
+17%.
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+Follow- up  1:  "Build  the  revival  segment" What  Zeno  does:  Builds  a  segment  from  one  sentence  ●  Segment  sentence:  "Customers  inactive  for  60+  days  whose  last  event  was  a  failed  payment"  ●  Reachable  users:  72,640  ●  Reach  by  channel:  SMS  72,640  ·  WhatsApp  51,200  ·  App  push  22,870  ●  Next  step  shown:  View ›  Save  segment  
+Follow- up  2:  "Send  me  the  deep- dive  report" What  Zeno  does:  Writes  a  Deep  Research  report  ●  Report  title:  "Dormancy  deep- dive"  ●  Screens:  Who  went  quiet  ·  Last  events  ·  Value  at  risk  ·  Channel  reach  ·  Next  steps  ●  Coverage  line:  Covers  18L  customers,  64  campaigns  and  11  journeys  from  the  last  90  days.  ●  Options  shown:  PDF  ·  Email  ·  Schedule  Outcome  screen:  ●  Time  to  answer:  46  sec  (usual  way:  1  week  with  the  analytics  team,  tagged  Illustrative)  ●  If  you  act  on  it:  +6%  reactivation  in  60  days  (tagged  Projected)  
+--- PAGE 7 ---
+●  Success  story  tile:  ClearTax ,  "73%  ↑  Returning  Users  in  Peak  Tax  Season  with  Agentic  
+Marketing"
+ 
+(https://
+netcore.ai/
+success-
+story/
+cleartax-73-
+percent-
+login-
+growth-
+with-
+netcore-
+agentic-
+marketing/)
+ 
+Banking  &  Fintech  success  stories  The  story  screen  shows  the  first  one  by  default;  visitors  can  switch  to  the  others.  Each  shows  a  QR  
+code
+ 
+to
+ 
+the
+ 
+full
+ 
+story.
+ Brand Line Link Shriram  Finance  171%  ↑  ROI  Across  Loan  and  FD  Funnels  with  Agentic  Marketing  
+https:// netcore.ai/ success- story/shriram- finance-171- roi- increase-agentic- marketing/  Equitas  Bank  50%  ↑  FD  Conversions  with  Personalised  WhatsApp  Journeys  
+https:// netcore.ai/ success- story/equitas- growth-1-5x- digital-adoption/  ClearTax  73%  ↑  Returning  Users  in  Peak  Tax  Season  with  Agentic  Marketing  
+https:// netcore.ai/ success- story/cleartax-73- percent- login- growth-with- netcore- agentic- marketing/   
+3.  Insurance  Challenges  the  visitor  can  pick:  7.  Renewals  lapse  in  the  grace  period  8.  Policyholders  never  buy  a  second  policy  9.  Hard  to  tell  which  campaigns  earn  their  spend  
+Challenge  3.1:  Renewals  lapse  in  the  grace  period  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  build  the  segment  ·  find  the  best  time  
+Question:  "How  do  I  increase  my  renewal  rate?"   What  Zeno  does  on  screen:  ●  Reading  renewal  journeys  for  motor,  health  and  term  ●  Checking  86K  policies  due  in  the  next  30  days  ●  Comparing  last  year's  renewals  by  reminder  channel  Zeno's  answer  (what  it  found):  ●  Headline:  Health  renewals  with  a  WhatsApp  reminder  renew  2.3x  more.  Only  31%  get  one.  ●  Detail:  Across  motor,  health  and  term,  health  has  the  biggest  gap.  SMS- only  reminders  are  still  
+the
+ 
+default
+ 
+there.
+ ●  Chart  (Renewal  rate  by  reminder  channel):  SMS  only  24%  ·  Email  29%  ·  WhatsApp  55%  ·  
+Agent
+ 
+call
+ 
+61%.
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+Follow- up  1:  "Who  should  get  WhatsApp  now?" What  Zeno  does:  Builds  a  segment  from  one  sentence  ●  Segment  sentence:  "Health  policies  due  in  15  days,  WhatsApp  opted  in,  with  no  WhatsApp  
+reminder
+ 
+sent
+ 
+yet"
+ ●  Reachable  users:  9,840  
+--- PAGE 8 ---
+●  Reach  by  channel:  WhatsApp  9,840  ·  SMS  9,840  ·  Email  8,210  ●  Next  step  shown:  View ›  Save  segment  
+Follow- up  2:  "When  should  reminders  go  out?" What  Zeno  does:  Analyses  the  pattern  and  recommends  ●  Chart  (Renewal  rate  by  reminder  timing):  D-30  8%  ·  D-15  19%  ·  D-7  27%  ·  D-3  21%  ·  Grace  
+11%.
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Recommendation  on  screen:  Best:  7  days  before  due.  Most  reminders  now  go  at  D-30  and  in  
+grace.
+ Outcome  screen:  ●  Time  to  answer:  40  sec  (usual  way:  3  days  stitching  reports,  tagged  Illustrative)  ●  If  you  act  on  it:  +4.5  pts  health  renewal  rate  (tagged  Projected)  ●  Success  story  tile:  ICICI  Life  Insurance ,  "70%  ↑  ULIP  &  Protection  Revenue  in  One  Quarter  with  
+Personalised
+ 
+Journeys"
+ 
+(https://
+netcore.ai/
+success-
+story/
+icici-
+life-
+insurance-70-
+revenue-
+growth/)
+ 
+Challenge  3.2:  Policyholders  never  buy  a  second  policy  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  build  the  segment  ·  plan  next  steps  
+Question:  "Which  of  my  policyholders  should  I  pitch  a  second  policy  to?"   What  Zeno  does  on  screen:  ●  Reading  30  days  of  website  and  app  activity  for  9.4L  policyholders  ●  Finding  who  viewed  term,  health  or  ULIP  plans  ●  Checking  who  already  has  a  follow- up  or  an  open  call- centre  lead  Zeno's  answer  (what  it  found):  ●  Headline:  14,600  policyholders  looked  at  term  or  ULIP  plans  this  month.  82%  got  no  
+follow-
+up.
+ ●  Detail:  Policyholders  who  come  back  to  a  plan  page  or  use  the  premium  calculator  buy  a  second  
+policy
+ 
+far
+ 
+more
+ 
+often.
+ 
+Your
+ 
+cross-
+sell
+ 
+campaign
+ 
+goes
+ 
+out
+ 
+once
+ 
+a
+ 
+quarter,
+ 
+to
+ 
+everyone.
+ ●  Chart  (Second  policy  bought  within  60  days,  by  browsing):  No  visit  0.6%  ·  Viewed  once  2.1%  ·  
+Viewed
+ 
+2+
+ 
+times
+ 
+5.4%
+ 
+·
+ 
+Used
+ 
+calculator
+ 
+8.9%
+.
+ 
+Bold
+ 
+=
+ 
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+Follow- up  1:  "Build  the  cross- sell  segment" What  Zeno  does:  Builds  a  segment  from  one  sentence  ●  Segment  sentence:  "Policyholders  who  viewed  term  or  ULIP  plans  2+  times  in  30  days,  with  no  
+open
+ 
+call-
+centre
+ 
+lead"
+ ●  Reachable  users:  9,870  ●  Reach  by  channel:  WhatsApp  7,940  ·  Email  9,120  ·  SMS  9,870  ●  Next  step  shown:  View ›  Save  segment  
+Follow- up  2:  "Plan  the  follow- up" What  Zeno  does:  Plans  the  next  steps  ●  Recommended  follow- up:  ●  Day  0:  WhatsApp  about  the  plan  they  viewed,  with  a  premium  calculator  link  ●  Day  2:  "Request  a  callback"  button  that  creates  a  call- centre  lead  
+--- PAGE 9 ---
+●  Day  5:  Email  comparing  the  plans  they  looked  at  ●  Skip:  Anyone  with  a  renewal  due  in  30  days:  renew  first  Outcome  screen:  ●  Time  to  answer:  42  sec  (usual  way:  1  week  of  analysis,  tagged  Illustrative)  ●  If  you  act  on  it:  +20%  second- policy  sales  (tagged  Projected)  ●  Success  story  tile:  ICICI  Life  Insurance ,  "70%  ↑  ULIP  &  Protection  Revenue  in  One  Quarter  with  
+Personalised
+ 
+Journeys"
+ 
+(https://
+netcore.ai/
+success-
+story/
+icici-
+life-
+insurance-70-
+revenue-
+growth/)
+ 
+Challenge  3.3:  Hard  to  tell  which  campaigns  earn  their  spend  On  the  challenge  card,  Zeno  will:  find  what's  going  on  ·  build  the  segment  ·  write  a  report  
+Question:  "Which  channels  actually  drove  policy  sales  last  quarter?"   What  Zeno  does  on  screen:  ●  Reading  140  campaigns  across  5  channels  ●  Matching  campaign  conversions  by  channel  ●  Comparing  cost  per  conversion  Zeno's  answer  (what  it  found):  ●  Headline:  SMS  takes  34%  of  spend  but  drives  9%  of  conversions.  ●  Detail:  WhatsApp  and  email  convert  far  better  per  rupee,  and  SMS  is  still  the  default  for  most  
+renewals.
+ ●  Chart  (Conversions  per  ₹1L  spent):  WhatsApp  46  ·  Email  31  ·  App  push  28  ·  SMS  9 .  Bold  =  
+highlighted
+ 
+on
+ 
+screen.
+ ●  Tag:  Grounded  in  data  
+Follow- up  1:  "Who  still  needs  SMS?" What  Zeno  does:  Builds  a  segment  from  one  sentence  ●  Segment  sentence:  "Customers  with  no  app,  no  WhatsApp  opt- in,  who  converted  on  SMS  in  the  
+last
+ 
+year"
+ ●  Reachable  users:  21,700  ●  Reach  by  channel:  SMS  21,700  ·  Email  14,300  ·  WhatsApp  0  ●  Next  step  shown:  View ›  Save  segment  
+Follow- up  2:  "Send  me  the  quarterly  ROI  report" What  Zeno  does:  Writes  a  Deep  Research  report  ●  Report  title:  "Quarterly  channel  ROI"  ●  Screens:  Spend  vs  conversions  ·  Cost  per  policy  ·  Channel  overlap  ·  What  to  cut  ·  What  to  scale  ●  Coverage  line:  Covers  140  campaigns  and  5  channels  from  the  last  quarter.  ●  Options  shown:  PDF  ·  Email  ·  Schedule  Outcome  screen:  ●  Time  to  answer:  47  sec  (usual  way:  1  week  at  quarter  end,  tagged  Illustrative)  ●  If  you  act  on  it:  Same  sales  on  ~25%  less  SMS  spend  (tagged  Projected)  ●  Success  story  tile:  ICICI  Life  Insurance ,  "70%  ↑  ULIP  &  Protection  Revenue  in  One  Quarter  with  
+Personalised
+ 
+Journeys"
+ 
+(https://
+netcore.ai/
+success-
+story/
+icici-
+life-
+insurance-70-
+revenue-
+growth/)
+ 
+--- PAGE 10 ---
+Insurance  success  stories  The  story  screen  shows  the  first  one  by  default;  visitors  can  switch  to  the  others.  Each  shows  a  QR  
+code
+ 
+to
+ 
+the
+ 
+full
+ 
+story.
+ Brand Line Link ICICI  Life  Insurance  70%  ↑  ULIP  &  Protection  Revenue  in  One  Quarter  with  Personalised  Journeys  
+https:// netcore.ai/ success- story/icici- life- insurance-70- revenue-growth/   
+Post  demo  and  on  the  case  study  screen  10.  "See  this  on  your  own  data"  nudge  11.  Goes  to  demo  booking  12.  Visitor  scans  the  QR  code  13.  WhatsApp  opens  14.  Visitor  sends  the  message  with  their  details  15.  Lead  captured  
+ 

@@ -1,0 +1,182 @@
+export const DEFAULT_INDUSTRIES = [
+  {
+    id: "ecommerce",
+    name: "E-commerce & D2C",
+    icon: "🛍️",
+    badge: "E-commerce & D2C",
+    description: "Autonomous AI strategies for recovering lost carts, turning one-time shoppers into loyalists, and optimizing mega sale GMV.",
+    greeting: "Welcome to the E-commerce experience! I'm Zeno. Let's explore how AI can improve customer engagement, increase conversions, and drive business growth.",
+    challenges: [
+      {
+        id: "cart_recovery",
+        title: "Cart recovery has stopped recovering",
+        question: "How can I recover more revenue from abandoned carts?",
+        follow_ups: [
+          "Who should get a morning reminder?",
+          "Plan the new reminder timing"
+        ],
+        proof_point: "Mulmul: 28% Repeat Purchase Rate with Agentic Marketing",
+        proof_link: "https://netcore.ai/success-story/mulmul-676-whatsapp-revenue-agentic-marketing/"
+      },
+      {
+        id: "repeat_buyers",
+        title: "One-time buyers never come back",
+        question: "Which one-time buyers are most likely to buy again this quarter?",
+        follow_ups: [
+          "Build the win-back segment",
+          "What should the win-back look like?"
+        ],
+        proof_point: "BigHaat: 98% ↑ Orders from Existing Farmer Base",
+        proof_link: "https://netcore.ai/success-story/bighaat-25-roi-retention-customer-engagement/"
+      },
+      {
+        id: "sale_planning",
+        title: "Sale-season planning is guesswork",
+        question: "How should I plan campaigns for the year-end sale?",
+        follow_ups: [
+          "Who's getting too many messages?",
+          "Give me the full plan as a report"
+        ],
+        proof_point: "Bacca Bucci: 3X ↑ CRM Revenue Share with Agentic Marketing",
+        proof_link: "https://netcore.ai/success-story/bacca-bucci-15x-roi-agentic-marketing/"
+      }
+    ],
+    case_studies: [
+      {
+        brand: "Mulmul",
+        headline: "28% Repeat Purchase Rate with Agentic Marketing",
+        url: "https://netcore.ai/success-story/mulmul-676-whatsapp-revenue-agentic-marketing/"
+      }
+    ],
+    questions: [
+      "How can I recover more revenue from abandoned carts?",
+      "Which one-time buyers are most likely to buy again this quarter?",
+      "How should I plan campaigns for the year-end sale?"
+    ]
+  },
+  {
+    id: "banking",
+    name: "Banking & Fintech",
+    icon: "🏦",
+    badge: "Banking & Fintech",
+    description: "Predictive AI for booking high-value term deposits, recovering loan application drop-offs, and re-engaging inactive accounts.",
+    greeting: "Welcome to the Banking experience! I'm Zeno. Let's discover how AI can transform customer engagement and create smarter banking experiences.",
+    challenges: [
+      {
+        id: "fd_conversion",
+        title: "Customers check FD rates but don't book",
+        question: "Which customers are most likely to open an FD this month?",
+        follow_ups: [
+          "Build the FD intent segment",
+          "Which channel converts best?"
+        ],
+        proof_point: "Equitas Bank: 50% ↑ FD Conversions with Personalised WhatsApp Journeys",
+        proof_link: "https://netcore.ai/success-story/equitas-growth-1-5x-digital-adoption/"
+      },
+      {
+        id: "journey_audit",
+        title: "Too many journeys, no idea which ones leak",
+        question: "Review my live journeys. Which work best, which work worst, and where are they leaking?",
+        follow_ups: [
+          "Find every leak in this journey",
+          "What should I change?"
+        ],
+        proof_point: "Shriram Finance: 171% ↑ ROI Across Loan and FD Funnels with Agentic Marketing",
+        proof_link: "https://netcore.ai/success-story/shriram-finance-171-roi-increase-agentic-marketing/"
+      },
+      {
+        id: "dormancy_reactivation",
+        title: "Customers go quiet and you find out late",
+        question: "Find customers who've gone quiet but are worth reviving.",
+        follow_ups: [
+          "Build the revival segment",
+          "Send me the deep-dive report"
+        ],
+        proof_point: "ClearTax: 73% ↑ Returning Users in Peak Tax Season with Agentic Marketing",
+        proof_link: "https://netcore.ai/success-story/cleartax-73-percent-login-growth-with-netcore-agentic-marketing/"
+      }
+    ],
+    case_studies: [
+      {
+        brand: "Shriram Finance",
+        headline: "171% ↑ ROI Across Loan and FD Funnels with Agentic Marketing",
+        url: "https://netcore.ai/success-story/shriram-finance-171-roi-increase-agentic-marketing/"
+      }
+    ],
+    questions: [
+      "Which customers are most likely to open an FD this month?",
+      "Review my live journeys. Which work best, which work worst, and where are they leaking?",
+      "Find customers who've gone quiet but are worth reviving."
+    ]
+  },
+  {
+    id: "insurance",
+    name: "Insurance",
+    icon: "🛡️",
+    badge: "Insurance",
+    description: "Omnichannel journeys for boosting timely policy renewals, unlocking life-to-health cross-sell, and cutting SMS spend.",
+    greeting: "Welcome to the Insurance experience! I'm Zeno. Let's explore how AI can improve customer experiences, strengthen engagement, and drive policy growth.",
+    challenges: [
+      {
+        id: "policy_renewals",
+        title: "Renewals lapse in the grace period",
+        question: "How do I increase my renewal rate?",
+        follow_ups: [
+          "Who should get WhatsApp now?",
+          "When should reminders go out?"
+        ],
+        proof_point: "ICICI Life Insurance: 70% ↑ ULIP & Protection Revenue in One Quarter with Personalised Journeys",
+        proof_link: "https://netcore.ai/success-story/icici-life-insurance-70-revenue-growth/"
+      },
+      {
+        id: "cross_selling",
+        title: "Policyholders never buy a second policy",
+        question: "Which of my policyholders should I pitch a second policy to?",
+        follow_ups: [
+          "Build the cross-sell segment",
+          "Plan the follow-up"
+        ],
+        proof_point: "ICICI Life Insurance: 70% ↑ ULIP & Protection Revenue in One Quarter with Personalised Journeys",
+        proof_link: "https://netcore.ai/success-story/icici-life-insurance-70-revenue-growth/"
+      },
+      {
+        id: "campaign_roi",
+        title: "Hard to tell which campaigns earn their spend",
+        question: "Which channels actually drove policy sales last quarter?",
+        follow_ups: [
+          "Who still needs SMS?",
+          "Send me the quarterly ROI report"
+        ],
+        proof_point: "ICICI Life Insurance: 70% ↑ ULIP & Protection Revenue in One Quarter with Personalised Journeys",
+        proof_link: "https://netcore.ai/success-story/icici-life-insurance-70-revenue-growth/"
+      }
+    ],
+    case_studies: [
+      {
+        brand: "ICICI Life Insurance",
+        headline: "70% ↑ ULIP & Protection Revenue in One Quarter with Personalised Journeys",
+        url: "https://netcore.ai/success-story/icici-life-insurance-70-revenue-growth/"
+      }
+    ],
+    questions: [
+      "How do I increase my renewal rate?",
+      "Which of my policyholders should I pitch a second policy to?",
+      "Which channels actually drove policy sales last quarter?"
+    ]
+  }
+];
+
+export async function fetchIndustriesConfig(apiBaseUrl = "") {
+  try {
+    const res = await fetch(`${apiBaseUrl}/api/industries`);
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data.industries) && data.industries.length > 0) {
+        return data.industries;
+      }
+    }
+  } catch (err) {
+    console.warn("[Zeno] Could not fetch remote industries config, using local fallback:", err);
+  }
+  return DEFAULT_INDUSTRIES;
+}
