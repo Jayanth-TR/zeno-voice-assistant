@@ -1,0 +1,12 @@
+{
+  "include": [
+    "backend"
+  ],
+  "extraPaths": [
+    "backend",
+    "C:/Users/WCT/AppData/Local/Programs/Python/Python312/Lib/site-packages",
+    "backend/venv/Lib/site-packages"
+  ],
+  "venvPath": "backend",
+  "venv": "venv"
+}

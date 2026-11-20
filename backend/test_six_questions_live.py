@@ -1,13 +1,20 @@
 import os
-os.environ["HF_HUB_OFFLINE"] = "1"
-os.environ["TRANSFORMERS_OFFLINE"] = "1"
+hf_offline = os.getenv("HF_HUB_OFFLINE")
+if hf_offline is not None:
+    os.environ["HF_HUB_OFFLINE"] = hf_offline
+
+tf_offline = os.getenv("TRANSFORMERS_OFFLINE")
+if tf_offline is not None:
+    os.environ["TRANSFORMERS_OFFLINE"] = tf_offline
 
 import asyncio
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
 
-sys.stdout.reconfigure(line_buffering=True)
+reconfigure_stdout = getattr(sys.stdout, "reconfigure", None)
+if callable(reconfigure_stdout):
+    reconfigure_stdout(line_buffering=True)
 
 backend_dir = Path(__file__).resolve().parent
 sys.path.insert(0, str(backend_dir))

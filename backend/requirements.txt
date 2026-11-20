@@ -11,3 +11,7 @@ python-multipart
 httpx
 pymongo
 motor
+websockets
+langchain-tavily
+email-validator
+

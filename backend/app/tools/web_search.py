@@ -7,7 +7,10 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from dotenv import load_dotenv
-from langchain_tavily import TavilySearch
+try:
+    from langchain_tavily import TavilySearch
+except ImportError:
+    TavilySearch = None
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 load_dotenv(BASE_DIR / ".env")
@@ -17,20 +20,23 @@ logger = logging.getLogger(__name__)
 
 TAVILY_API_KEY = os.getenv("TAVILY_API_KEY")
 
-if not TAVILY_API_KEY:
-    raise RuntimeError(
-        "TAVILY_API_KEY is missing. Add it to your backend .env file."
-    )
-
-# Initialize Tavily search.
-tavily_search = TavilySearch(
-    tavily_api_key=TAVILY_API_KEY,
-    max_results=5,
-    topic="general",
-    search_depth="basic",
-    include_answer=False,
-    include_raw_content=False,
-)
+# Initialize Tavily search gracefully if key is configured
+tavily_search = None
+if TAVILY_API_KEY and TavilySearch is not None:
+    try:
+        tavily_search = TavilySearch(
+            tavily_api_key=TAVILY_API_KEY,
+            max_results=5,
+            topic="general",
+            search_depth="basic",
+            include_answer=False,
+            include_raw_content=False,
+        )
+        logger.info("Tavily web search service initialized successfully.")
+    except Exception as exc:
+        logger.warning("Failed to initialize TavilySearch client: %s", exc)
+else:
+    logger.info("TAVILY_API_KEY is not configured or langchain-tavily not installed. Web search fallback will be disabled.")
 
 
 def clean_search_query(q: str) -> str:
@@ -46,6 +52,9 @@ def clean_search_query(q: str) -> str:
 
 async def _execute_tavily(search_args: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Execute search via Tavily with timeout and error extraction."""
+    if not tavily_search:
+        logger.debug("Tavily search skipped: service is not configured.")
+        return []
     try:
         response = await asyncio.wait_for(
             tavily_search.ainvoke(search_args),
@@ -95,6 +104,15 @@ async def search_web(
             "results": [],
             "sources": [],
             "status": "empty_query",
+        }
+
+    if not tavily_search:
+        logger.debug("Tavily search not performed: TAVILY_API_KEY not configured.")
+        return {
+            "query": query,
+            "results": [],
+            "sources": [],
+            "status": "tavily_not_configured",
         }
 
     try:

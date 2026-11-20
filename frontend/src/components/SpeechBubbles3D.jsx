@@ -1,25 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 /**
- * BubbleTail is omitted for pure floating text illusion
- */
-function BubbleTail() {
-  return null;
-}
-
-/**
- * Slot Configuration: Strictly ABOVE avatar head in Left, Center, Right layout
- * Slot 0: Top-Left (Upper left studio space, above avatar head)
- * Slot 1: Top-Center (Upper center studio space, directly above avatar head)
- * Slot 2: Top-Right (Upper right studio space, above avatar head)
- */
-const SLOTS = [
-  { position: "top-left", className: "slot-top-left" },
-  { position: "top-center", className: "slot-top-center" },
-  { position: "top-right", className: "slot-top-right" },
-];
-
-/**
  * Splits text into individual complete sentences so that every single sentence
  * receives its own dedicated bullet point.
  * Preserves decimal numbers (e.g. 1.8%, 6.1%, ₹2.5L) and common abbreviations (e.g., i.e., vs.).

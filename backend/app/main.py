@@ -72,6 +72,7 @@ app.include_router(transcription_router)
 init_db()
 
 
+# pyrefly: ignore[deprecated]
 @app.on_event("startup")
 async def on_startup():
     await init_leads_db()
@@ -96,7 +97,7 @@ class TTSRequest(BaseModel):
     model: Optional[str] = None
 
 
-_DYNAMIC_TTS_CACHE: dict[str, str] = {}
+_DYNAMIC_TTS_CACHE: Dict[str, str] = {}
 
 
 @app.post("/api/tts")
@@ -162,7 +163,7 @@ if os.path.exists(_GOODBYE_CACHE_FILE):
     except Exception as _e:
         logger.warning("Could not read goodbye cache file: %s", _e)
 
-_INDUSTRY_GREETINGS_CACHE: dict[str, str] = {}
+_INDUSTRY_GREETINGS_CACHE: Dict[str, str] = {}
 for _ind_key, _ind_file in [
     ("ecommerce", "greeting_ecommerce.mp3"),
     ("banking", "greeting_banking.mp3"),
@@ -703,6 +704,7 @@ async def voice_websocket(websocket: WebSocket):
             # ---------------------------------------------
 
             response_messages = build_response_messages(
+                # pyrefly: ignore[bad-argument-type]
                 graph_state
             )
 

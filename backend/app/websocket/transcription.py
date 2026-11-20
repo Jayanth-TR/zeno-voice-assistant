@@ -9,7 +9,6 @@ from typing import Optional
 
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 import websockets
-from websockets.exceptions import ConnectionClosed
 
 logger = logging.getLogger(__name__)
 
@@ -59,8 +58,6 @@ async def live_transcription_websocket(websocket: WebSocket):
         async with client_send_lock:
             try:
                 await websocket.send_json(data)
-            except Exception:
-                pass
             except Exception:
                 pass
 

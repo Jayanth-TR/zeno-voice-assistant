@@ -1,17 +1,22 @@
-from app.agents.prompts import CONVERSATIONAL_PERSONALITY
 import asyncio
 import logging
 import os
 import re
-from typing import Annotated, Any, Dict, List, Optional, TypedDict
+from typing import Annotated, Any, Dict, List, Optional, TypedDict, cast
 
+# pyrefly: ignore[missing-import]
 from dotenv import load_dotenv
+# pyrefly: ignore[missing-import]
 from langchain_core.messages import BaseMessage, HumanMessage
+# pyrefly: ignore[missing-import]
 from langchain_openai import ChatOpenAI
+# pyrefly: ignore[missing-import]
 from langgraph.graph import END, START, StateGraph
+# pyrefly: ignore[missing-import]
 from langgraph.graph.message import add_messages
 
-from app.agents.prompts import (
+# pyrefly: ignore[missing-import]
+from app.agents.prompts import (  # pyrefly: ignore[missing-import]
     ZENO_SYSTEM_PROMPT,
     RAG_GROUNDING_INSTRUCTIONS,
     CONVERSATIONAL_PERSONALITY,
@@ -19,8 +24,10 @@ from app.agents.prompts import (
     HYBRID_GROUNDING_INSTRUCTIONS,
     NETCORE_AI_AGENTS_INSTRUCTIONS,
 )
-from app.rag.retriever import retrieve_knowledge
-from app.tools.web_search import search_web
+# pyrefly: ignore[missing-import]
+from app.rag.retriever import retrieve_knowledge  # pyrefly: ignore[missing-import]
+# pyrefly: ignore[missing-import]
+from app.tools.web_search import search_web  # pyrefly: ignore[missing-import]
 
 load_dotenv()
 logger = logging.getLogger(__name__)
@@ -28,7 +35,7 @@ logger = logging.getLogger(__name__)
 WORKSPACE_ID = os.getenv("ZENO_WORKSPACE_ID", "default")
 TOP_K = int(os.getenv("RAG_TOP_K", "8"))
 MIN_HYBRID_SCORE = float(os.getenv("RAG_MIN_HYBRID_SCORE", "0.25"))
-MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-6.1-terra")
+MODEL_NAME = os.getenv("OPENAI_MODEL", "gpt-4o")
 
 model = ChatOpenAI(
     model=MODEL_NAME,
@@ -501,18 +508,18 @@ FINAL RESPONSE RULES:
 
 MARKDOWN LINK FORMATTING RULES (CRITICAL):
 - When linking to a website, ALWAYS format links using standard, clean Markdown: [Anchor Text](https://example.com)
-- NEVER escape parentheses or brackets (do NOT write \( or \) or \[ or \]).
-- NEVER create nested Markdown links (e.g. do NOT write [anchor]\([url](url)) or [anchor]([url])).
+- NEVER escape parentheses or brackets (do NOT write \\( or \\) or \\[ or \\]).
+- NEVER create nested Markdown links (e.g. do NOT write [anchor]\\([url](url)) or [anchor]([url])).
 - The anchor text must be plain words inside single square brackets: [website lists]
 - The link target must be a raw URL inside single parentheses: (https://netcore.ai/...)
 - Example of CORRECT link: Netcore's [website lists](https://netcore.ai/agentic-marketing/) products...
-- Example of FORBIDDEN link: [website lists]\([https://netcore.ai/...](https://netcore.ai/...))
+- Example of FORBIDDEN link: [website lists]\\([https://netcore.ai/...](https://netcore.ai/...))
 - Do not read raw URLs aloud.
 """
 
     return [("system", system_prompt)] + state.get("messages", [])
 
-workflow = StateGraph(ZenoState)
+workflow = StateGraph(cast(Any, ZenoState))  # pyrefly: ignore[bad-specialization]
 workflow.add_node("rewrite_query", rewrite_query_node)
 workflow.add_node("classify_intent", classify_intent_node)
 workflow.add_node("retrieve_knowledge", retrieve_knowledge_node)

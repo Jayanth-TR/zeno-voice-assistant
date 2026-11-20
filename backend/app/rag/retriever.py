@@ -3,12 +3,19 @@
 import logging
 import re
 import os
-os.environ.setdefault("HF_HUB_OFFLINE", "1")
-os.environ.setdefault("TRANSFORMERS_OFFLINE", "1")
+# Respect offline mode if explicitly set by environment, otherwise allow downloading embeddings if not cached
+hf_offline = os.getenv("HF_HUB_OFFLINE")
+if hf_offline is not None:
+    os.environ["HF_HUB_OFFLINE"] = hf_offline
 
+tf_offline = os.getenv("TRANSFORMERS_OFFLINE")
+if tf_offline is not None:
+    os.environ["TRANSFORMERS_OFFLINE"] = tf_offline
+
+import math
 from collections import Counter
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional
 
 import chromadb
 from sentence_transformers import SentenceTransformer
@@ -521,7 +528,7 @@ def calculate_keyword_scores(
         df = document_frequency.get(token, 0)
 
         term_weights[token] = (
-            1 + __import__("math").log(
+            1 + math.log(
                 (total_documents + 1) / (df + 1)
             )
         )
@@ -590,8 +597,11 @@ def query_collection(
     results = []
 
     ids = response.get("ids", [[]])[0]
+    # pyrefly: ignore[unsupported-operation]
     documents = response.get("documents", [[]])[0]
+    # pyrefly: ignore[unsupported-operation]
     metadatas = response.get("metadatas", [[]])[0]
+    # pyrefly: ignore[unsupported-operation]
     distances = response.get("distances", [[]])[0]
 
     for index, document in enumerate(documents):
@@ -685,7 +695,7 @@ def retrieve_knowledge(
 
     # Map explicit industry parameter to knowledge-base topics
     if industry:
-        ind_str = str(industry).lower()
+        ind_str = industry.lower()
         if any(term in ind_str for term in ["ecommerce", "e-commerce", "retail", "d2c"]):
             if "industry_ecommerce" not in detected_topics:
                 detected_topics.append("industry_ecommerce")

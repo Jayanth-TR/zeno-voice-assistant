@@ -1,0 +1,14 @@
+[tool.pyrefly]
+search-path = [
+    ".",
+    "backend",
+    "./backend",
+    "backend/app",
+    "D:/Mithun's Works/zeno/zeno-voice-assistant/backend",
+    "C:/Users/WCT/AppData/Local/Programs/Python/Python312/Lib/site-packages",
+    "backend/venv/Lib/site-packages"
+]
+site-package-path = [
+    "backend/venv/Lib/site-packages",
+    "C:/Users/WCT/AppData/Local/Programs/Python/Python312/Lib/site-packages"
+]
